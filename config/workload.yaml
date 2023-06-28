@@ -25,7 +25,7 @@ spec:
     - name: scanning_source_policy
       value: lax-scan-policy
     - name: scanning_image_policy
-      value: lax-scan-policy" 
+      value: lax-scan-policy 
     - name: api_descriptor
       value:
         type: openapi
