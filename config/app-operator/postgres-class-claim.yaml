@@ -1,0 +1,11 @@
+apiVersion: services.apps.tanzu.vmware.com/v1alpha1
+kind: ClassClaim
+metadata:
+  name: customer-database
+  namespace: dev-space
+spec:
+  classRef:
+    name: postgresql-unmanaged
+  parameters:
+    storageGB: 1
+    serviceNamespace: service-instances
