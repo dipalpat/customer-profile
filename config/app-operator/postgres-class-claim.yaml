@@ -8,4 +8,3 @@ spec:
     name: postgresql-unmanaged
   parameters:
     storageGB: 1
-    serviceNamespace: service-instances
